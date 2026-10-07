@@ -4,10 +4,10 @@ const express = require("express");
 const cors = require("cors");
 const morgan = require("morgan");
 
-const authRoutes = require("./auth");
-const productRoutes = require("./products");
-const orderRoutes = require("./orders");
-const userRoutes = require("./users");
+const authRoutes = require("./routes/auth");
+const productRoutes = require("./routes/products");
+const orderRoutes = require("./routes/orders");
+const userRoutes = require("./routes/users");
 
 const app = express();
 
